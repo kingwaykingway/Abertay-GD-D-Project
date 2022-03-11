@@ -8506,3 +8506,66 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.11-10.34.49:384][398]LogContentValidation: Display: Validating Blueprint /Game/_Prefabs/Projectiles/sample_IceArrow.sample_IceArrow
 [2022.03.11-10.34.49:384][398]LogContentValidation: Display: Validating Blueprint /Game/_Prefabs/Structures/SampleTower.SampleTower
 [2022.03.11-10.34.49:384][398]LogContentValidation: Display: Validating World /Game/_Levels/Level_1_GreyBox_Aleks.Level_1_GreyBox_Aleks
+[2022.03.11-10.38.48:726][277]BlueprintLog: New page: Compile GridManager
+[2022.03.11-10.38.48:989][277]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2022.03.11-10.39.47:987][828]BlueprintLog: New page: Compile GridManager
+[2022.03.11-10.39.48:250][828]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2022.03.11-10.40.09:167][859]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.11-10.40.09:182][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.11-10.40.09:183][859]PIE: New page: PIE session: Level_1_GreyBox_Aleks (11 Mar 2022, 10:40:09)
+[2022.03.11-10.40.09:183][859]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_Level_1_GreyBox_Aleks
+[2022.03.11-10.40.09:196][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013724s)
+[2022.03.11-10.40.09:198][859]LogAIModule: Creating AISystem for world Level_1_GreyBox_Aleks
+[2022.03.11-10.40.09:198][859]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2022.03.11-10.40.09:198][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/Level_1_GreyBox_Aleks.Level_1_GreyBox_Aleks to /Game/_Levels/UEDPIE_0_Level_1_GreyBox_Aleks.Level_1_GreyBox_Aleks (0.015602s)
+[2022.03.11-10.40.09:238][859]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.03.11-10.40.09:238][859]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.11-10.40.09:238][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.11-10.40.09:238][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.11-10.40.09:240][859]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.11-10.40.09:240][859]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.11-10.40.09:246][859]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.11-10.40.09:246][859]LogAudioMixer: Display: 1: FrontRight
+[2022.03.11-10.40.09:264][859]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2022.03.11-10.40.09:264][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.11-10.40.09:264][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.11-10.40.09:264][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.11-10.40.09:265][859]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.11-10.40.09:265][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.11-10.40.09:265][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.11-10.40.09:301][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.11-10.40.09:301][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.11-10.40.09:301][859]LogInit: FAudioDevice initialized.
+[2022.03.11-10.40.09:301][859]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level_1_GreyBox_Aleks'.
+[2022.03.11-10.40.09:317][859]LogLoad: Game class is 'TowerDefence_GameMode_C'
+[2022.03.11-10.40.09:322][859]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_Level_1_GreyBox_Aleks.Level_1_GreyBox_Aleks up for play (max tick rate 60) at 2022.03.11-10.40.09
+[2022.03.11-10.40.09:323][859]LogWorld: Bringing up level for play took: 0.004121
+[2022.03.11-10.40.09:323][859]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.03.11-10.40.09:334][859]PIE: Server logged in
+[2022.03.11-10.40.09:335][859]PIE: Play in editor total start time 0.155 seconds.
+[2022.03.11-10.40.38:326][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.11-10.40.38:326][583]LogWorld: BeginTearingDown for /Game/_Levels/UEDPIE_0_Level_1_GreyBox_Aleks
+[2022.03.11-10.40.38:327][583]LogWorld: UWorld::CleanupWorld for Level_1_GreyBox_Aleks, bSessionEnded=true, bCleanupResources=true
+[2022.03.11-10.40.38:327][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.11-10.40.38:348][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.11-10.40.38:370][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.11-10.40.38:415][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.11-10.40.38:416][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.11-10.40.38:418][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.11-10.40.38:460][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.11-10.40.38:468][583]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2022.03.11-10.40.38:564][584]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.03.11-10.41.16:672][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.03.11-10.41.16:736][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.03.11-10.41.16:830][796]LogSavePackage: Moving '../../../../../../Users/jakeb/OneDrive/Documents/GitHub/Abertay-Game-Design-and-Development/TowerDefence/Saved/Level_1_GreyBox_Aleks1E693468423E1F95DABEAEB5D2C3DCC0.tmp' to '../../../../../../Users/jakeb/OneDrive/Documents/GitHub/Abertay-Game-Design-and-Development/TowerDefence/Content/_Levels/Level_1_GreyBox_Aleks.umap'
+[2022.03.11-10.41.16:871][796]LogFileHelpers: Saving map 'Level_1_GreyBox_Aleks' took 0.169
+[2022.03.11-10.41.17:767][796]LogSavePackage: Moving '../../../../../../Users/jakeb/OneDrive/Documents/GitHub/Abertay-Game-Design-and-Development/TowerDefence/Saved/GridManagerCF3D25BD47FAA354186C6594A0751FA3.tmp' to '../../../../../../Users/jakeb/OneDrive/Documents/GitHub/Abertay-Game-Design-and-Development/TowerDefence/Content/_Prefabs/GridManager.uasset'
+[2022.03.11-10.41.17:813][796]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.11-10.41.17:813][796]LogContentValidation: Display: Validating Blueprint /Game/_Prefabs/GridManager.GridManager
+[2022.03.11-10.41.17:813][796]LogContentValidation: Display: Validating World /Game/_Levels/Level_1_GreyBox_Aleks.Level_1_GreyBox_Aleks
